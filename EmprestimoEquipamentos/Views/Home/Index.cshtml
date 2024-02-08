@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+        <div class="row justify-content-between gy-5">
+            <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+                <h2 data-aos="fade-up">EmprestaFácil - Projeto em ASP.NET Core MVC</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Facilite sua vida ao emprestar e gerenciar equipamentos com o EmprestaFácil. Uma plataforma amigável e eficiente para compartilhar o que você precisa, quando você precisa.</p>
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <a type="button" class="btn btn-danger" asp-controller="Emprestimo" asp-action="Index">Faça um Empréstimo</a>
+                </div>
+            </div>
+            <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+                <img src="images/image1.jpg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+            </div>
+        </div>
+    </div>
+</section>
+
